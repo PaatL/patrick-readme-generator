@@ -42,7 +42,7 @@ ${data.description}
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
-${renderLicenseLink(data.license)}
+${renderLicenseLink(data.license)}(#license)
 - [Questions](#questions)
 
 ## Installation
@@ -51,12 +51,19 @@ ${data.installation}
 
 ## Usage
 
+${data.usage}
+
 ## Credits
 
+${data.credits}
+
+## ${renderLicenseLink(data.license)}
 
 ${renderLicenseSection(data.license)}
+
 ## Questions
-Checkout my Github repo's: [Click Here](https://github.com/PaatL${questions})
+
+Checkout my Github repo's: [Click Here](https://github.com/${questions})
 If you need to reach me, please to email me at ${contact}.
 `;
 }

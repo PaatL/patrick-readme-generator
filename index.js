@@ -19,6 +19,11 @@ const questions = [
     type: "input",
     name: "installation",
     message: "Provide installation instructions:",
+  }, 
+  {
+    type: "input",
+    name: "usage",
+    message: "Please enter the usages of this application:",
   },
 
   {
@@ -27,7 +32,11 @@ const questions = [
     message: "which of these licenses are you using?",
     choices: ["ISC", "MIT", "Apache", "none"],
   },
-
+  {
+    type: "input",
+    name: "credits",
+    message: "Please provide who should be credited for this application:",
+  },
   {
     type: "input",
     name: "questions",
