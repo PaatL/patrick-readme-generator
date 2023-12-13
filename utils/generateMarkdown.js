@@ -42,7 +42,7 @@ ${data.description}
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
-${renderLicenseLink(data.license)}(#license)
+${renderLicenseLink(data.license)}
 - [Questions](#questions)
 
 ## Installation
@@ -63,8 +63,8 @@ ${renderLicenseSection(data.license)}
 
 ## Questions
 
-Checkout my Github repo's: [Click Here](https://github.com/${questions})
-If you need to reach me, please to email me at ${contact}.
+Checkout my Github repo's: [Click Here](https://github.com/${data.questions}/)
+If you need to reach me, please to email me at [This Address](${data.contact}).
 `;
 }
 

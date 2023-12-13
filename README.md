@@ -1,10 +1,10 @@
-# title
-  ![Static Badge](https://img.shields.io/badge/LICENSE-Apache-blue)
+# Title goes here
+  ![Static Badge](https://img.shields.io/badge/LICENSE-ISC-blue)
   
 
 ## Description
 
-description
+Descpriotn here
 
 ## Table of Contents
 
@@ -13,10 +13,27 @@ description
 - [Credits](#credits)
 - [License](#license)
 - [Questions](#questions)
-- [Contact](#contact)
+
 ## Installation
 
-install
+Installation
+
+## Usage
+
+Usage
+
+## Credits
+
+Credits
+
+## - [License](#license)
 
 ## License
+  
+  this application is covered under the ISC license!
+    
 
+## Questions
+
+Checkout my Github repo's: [Click Here](https://github.com/PaatL/)
+If you need to reach me, please to email me at [This Address](lipatrick0-93@gmail.com).
