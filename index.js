@@ -20,13 +20,24 @@ const questions = [
     name: "installation",
     message: "Provide installation instructions:",
   },
-  
-//   {
-//     type: "list",
-//     name: "role",
-//     message: "what is your role in this project?",
-//     choices: ["student", "tutor", "teacher", "admin"],
-//   },
+
+  {
+    type: "list",
+    name: "license",
+    message: "which of these licenses are you using?",
+    choices: ["ISC", "MIT", "Apache", "none"],
+  },
+
+  {
+    type: "input",
+    name: "questions",
+    message: "Provide your github profile:",
+  },
+  {
+    type: "input",
+    name: "contact",
+    message: "Provide email address for contact:",
+  },
 ];
 
 // TODO: Create a function to write README file
